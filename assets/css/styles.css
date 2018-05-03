@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row; }
+  .main-container .panes {
+    flex: 1;
+    height: 100%; }
+  .main-container .left-pane .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+    .main-container .left-pane .swiper-wrapper .lslide1 {
+      background: url("../img/life.jpg") no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .main-container .left-pane .swiper-wrapper .lslide2 {
+      background: url("../img/15.jpg") no-repeat;
+      background-position: 20%;
+      background-size: cover; }
+  .main-container .right-pane {
+    display: flex;
+    width: 50%;
+    flex-direction: column; }
+    .main-container .right-pane .sub-panes {
+      flex: 2;
+      width: 100%; }
+    .main-container .right-pane .top-right .rtslide1 {
+      background: url("../img/others.jpg") no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .main-container .right-pane .top-right .rtslide2 {
+      background: url("../img/16.jpg") no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .main-container .right-pane .bottom-right .rbslide1 {
+      background: url("../img/food.jpg") no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .main-container .right-pane .bottom-right .rbslide2 {
+      background: url("../img/pherm.jpg") no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+
+.swiper-wrapper {
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
